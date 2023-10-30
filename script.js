@@ -1,3 +1,13 @@
+//1) Compare 2 json object
+let obj1={
+    "name":"person",
+    "age":5
+}
+let obj2={
+    "age":5,
+    "name":"person"
+}
+console.log(JSON.stringify(obj1)==JSON.stringify(obj2))
 // //2)display all flags
 var request=new XMLHttpRequest
 request.open("GET","https://restcountries.com/v3.1/all","true")
